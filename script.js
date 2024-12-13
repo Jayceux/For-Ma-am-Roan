@@ -1,5 +1,5 @@
 document.getElementById('surpriseButton').addEventListener('click', () => {
-    // Step 1: Show alert
+
     alert('🎉 Thank you, Ma\'am, for everything! Best wishes from all of us! 🎉');
 
     const memeContainer = document.getElementById('memeContainer');
