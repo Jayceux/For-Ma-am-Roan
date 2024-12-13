@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.message-container {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.message {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+#surpriseButton {
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #f39c12;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#surpriseButton:hover {
+    background: #d35400;
+    transform: scale(1.1);
+}
+
+#memeContainer {
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+#memeImage {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.meme-caption {
+    font-size: 1.2em;
+    color: #f39c12;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2em;
+    }
+
+    .message {
+        font-size: 1em;
+        padding: 0 10px;
+    }
+
+    #surpriseButton {
+        font-size: 0.9em;
+        padding: 8px 15px;
+    }
+
+    #memeImage {
+        max-width: 90%;
+    }
+
+    .meme-caption {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 1.5em;
+    }
+
+    .message {
+        font-size: 0.9em;
+        line-height: 1.4;
+    }
+
+    #surpriseButton {
+        font-size: 0.8em;
+        padding: 7px 12px;
+    }
+
+    #memeImage {
+        max-width: 100%;
+    }
+
+    .meme-caption {
+        font-size: 0.9em;
+    }
+}
